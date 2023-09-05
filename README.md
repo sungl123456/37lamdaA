@@ -1,2 +1,4 @@
 # 37lamdaA
-A new generation of autonomous predictive gas-liquid phase equilibrium deep learning model
+A new generation of vapor-liquid equilibrium prediction tool based on machine learning approach
+
+#
