@@ -112,6 +112,7 @@ def data_import(input = 'VLE_input.xlsx',
         f.append(d[0])
         f.append(b[0])
         c_test.append(e)
+        c_test.append(f)
 
     
 
@@ -128,7 +129,6 @@ def data_import(input = 'VLE_input.xlsx',
     x_train = np.array(x_train)
     y_train = np.array(y_train)
 
-    # 把要验证的数据存到列表里
     x_val = []
     y_val = []
 
