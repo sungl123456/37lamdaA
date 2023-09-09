@@ -92,7 +92,7 @@ def train_ANN(target = str, save_dir = str):
     # 保存模型
     torch.save(model.state_dict(), save_dir+"\\model_"+target+".pth")
 
-    model = NeuralNetwork(fnn = 23)
+    model = NeuralNetwork(fnn = 21)
     model.load_state_dict(torch.load(save_dir+"\\model_"+target+".pth"))
     model.eval()
 
