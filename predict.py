@@ -52,7 +52,7 @@ def predict_RF(target = str, x_test= np.array):
     return y_pred
 
 
-read = pd.read_csv("all\\Tc_T.csv",usecols = ['name','Tc','Tb'])
+read = pd.read_csv("all\\Tc_Tb.csv",usecols = ['name','Tc','Tb'])
 #调取基础数据，沸点和临界温度。Get the data from the database, boiling point and critical temperature.
 
 print('This is a T-xy prediction for binary mixtures, please input the first component in the mixture')
