@@ -62,10 +62,10 @@ python predict.py
 
 ```
 The name of the components of the target mixture is required to input sequentially, for example,
-
+```commandline
 water
 methanol
-
+```
 The name of the substance is also listed in `all//Tc_Tb.csv`.
 
 The prediction results by ANN and RF will be written in `water_methanol_VLE_predict.csv`. 
