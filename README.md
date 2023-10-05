@@ -44,7 +44,7 @@ python cross_validation.py
 The data mentioned above will be disrupted as a mixture-based unit for training and evalidation.
 
 ## Generate models for prediction
-To generate models for the whole dataset with the descriptors contribute the most, do:
+To generate models for the whole dataset only consider the boiling points and critical temperature, do:
 ```commandline
 
 cd all
