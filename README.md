@@ -70,6 +70,6 @@ The name of the substance is also listed in `all//Tc_Tb.csv`.
 
 The results will be written in `water_methanol_VLE_predict.csv`. 
 
-We suggest the users will further regressed the prediction results with traditional thermodynamic models such as NRTL functions, for a practical use. 
+We suggest the users will further regressed the prediction results with traditional thermodynamic models, such as NRTL functions, for a practical use. 
 
 We also suggest the users will expand the data set in the `all` folder for a more accurate prediction. Only the critical temperature, boiling points and the T-xy data are required.
