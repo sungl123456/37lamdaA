@@ -68,7 +68,7 @@ methanol
 ```
 The name of the substance is also listed in `all//Tc_Tb.csv`.
 
-The prediction results by ANN and RF will be written in `water_methanol_VLE_predict.csv`. 
+The results will be written in `water_methanol_VLE_predict.csv`. 
 
 We suggest the users will further regressed the prediction results with traditional thermodynamic models such as NRTL functions, for a practical use. 
 
