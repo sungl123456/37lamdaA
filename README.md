@@ -25,7 +25,7 @@ The code is written in python and can be run from command prompt. This requires 
 
 ## Data
 
-The data that used in the original work is available as five excel documents (.xlsx). five files are included:
+The data that used in the original work is available as five excel documents (.xlsx). The five files include:
 
 * `dataset.xlsx` All of the data used in the training, the size of data collected was doubled by swapping and rejoining the descriptors of component A and component B.
 * `VLE_input.xlsx` The screened descriptors of the substances with the liquid fractions and the pressure (mainly ambient pressure) in vapor-liquid equilibrium.
