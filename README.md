@@ -54,7 +54,7 @@ python train_all.py
 ```
 
 ## Prediction
-To acquire the T-xy data for target mixture, do:
+To acquire the T-xy data of target mixture, do:
 
 ```commandline
 
