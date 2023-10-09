@@ -11,7 +11,7 @@ import pickle
 import os
 import matplotlib.pyplot as plt
 
-from data import mixtures_split,data_import
+from data import dataset_split,data_import
 from model import NeuralNetwork,train, validation
 from evaluate import RMSE_cal, MAE_cal, AADP_cal, R2_cal
 
@@ -284,7 +284,7 @@ for i in range(10):
     if not os.path.exists(save_dir):
         os.mkdir(save_dir)
 
-    mixtures_split(save_dir = save_dir)
+    dataset_split(save_dir = save_dir)
     train_ANN(target = "T",save_dir=save_dir)
     train_ANN(target = "Y",save_dir=save_dir)
     train_RF(target ="T",save_dir=save_dir)
