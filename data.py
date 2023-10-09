@@ -4,7 +4,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import math
 
-def mixtures_split(save_dir):
+def dataset_split(save_dir):
     components_train = open(save_dir+"\\components_train.txt","w")
     components_validation = open(save_dir+"\\components_validation.txt","w")
     components_test = open(save_dir+"\\components_test.txt","w")
