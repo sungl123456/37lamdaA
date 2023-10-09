@@ -4,11 +4,13 @@
 
 This code is the basis of our work submitted to *Chemical Engineering Science*, aiming to train and apply the artificial neural network and random forest in the prediction of Vapor-liquid equilibrium data under ambient pressure for binary mixtures with limited descriptors. This is an **alpha version** of the codes used to generate the results published in:
 
-[Vapor-liquid phase equilibria behavior prediction of binary mixtures using machine learning]
+[Vapor-liquid phase equilibria behavior prediction of binary mixtures using machine learning](https://doi.org/10.1016/j.ces.2023.119358)
+
+Guanlun Sun, Zhenyu Zhao, Shengjie Sun, Yiming Ma, Hong Li, Xin Gao
 
 Chemical Engineering Science
 
-DOI:
+DOI:10.1016/j.ces.2023.119358
 
 ## Prerequisites and dependencies
 
